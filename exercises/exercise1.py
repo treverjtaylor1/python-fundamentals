@@ -35,15 +35,20 @@ display_message()
 
 # 8-2 FAVORITE BOOK
 
-def favorite_book():
-    print("My favorite book is python crash course")
+def favorite_book(book):
+    """Display their favorite book"""
+    print(f"My favorite book is {book}!")
 
-favorite_book()
+favorite_book('Python Crash Course')
 
 # What I did in these exercises for # 4 is I defined functions display_message
 # and favorite_book and when I call those functions they appear.
 
+def greet_user(username):
+    """Display a simple greeting"""
+    print(f"Hello, {username}!")
 
+greet_user('Jessie')
 
 
 
