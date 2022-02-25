@@ -70,5 +70,7 @@ my_class = MyFirstClass()
 print(my_class.name)
 my_class.something()
 
+print('correction')
+
 
 
